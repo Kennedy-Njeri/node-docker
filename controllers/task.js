@@ -4,19 +4,19 @@ const { errorHandler } = require('../helpers/dbErrorHandler');
 
 
 exports.create = async (req, res) => {
-    const task = new Task({user: req.profile, ...req.body });
+    const task = new Task({...req.body, user: req.profile._id });
     await task.save((err, data) => {
         if (err) {
             return res.status(400).json({
                 error: errorHandler(err)
             });
         }
-        res.json({ data });
+        res.status(201).json({ data });
     });
 };
 
 exports.taskById = async (req, res, next, id) => {
-    await Task.findById({ _id: id, user: req.profile._id })
+    await Task.findById({ _id: id })
         .exec((err, task) => {
             if (err || !task) {
                 return res.status(400).json({
@@ -31,6 +31,16 @@ exports.taskById = async (req, res, next, id) => {
 exports.read = (req, res) => {
     return res.json(req.task);
 };
+
+
+exports.list1 = async (req, res) => {
+
+    await Task.find({ user: req.profile._id}).then((data) => {
+        return res.send(data)
+    }).catch((err) => {
+        res.status(500).send(err)
+    })
+}
 
 exports.remove = async (req, res) => {
     let task = req.task;
@@ -72,18 +82,17 @@ exports.list = async (req, res) => {
     let sortBy = req.query.sortBy ? req.query.sortBy : '_id';
     let limit = req.query.limit ? parseInt(req.query.limit) : 6;
 
-    await Task.find()
-        .select('-photo')
-        .populate('category')
-        .sort([[match, sortBy, order]])
+    await Task.find({ owner: req.profile._id})
+        .populate('user', { match: match})
+        .sort([[sortBy, order]])
         .limit(limit)
-        .exec((err, products) => {
+        .exec((err, tasks) => {
             if (err) {
                 return res.status(400).json({
                     error: 'Tasks not found'
                 });
             }
-            res.json(products);
+            res.json(tasks);
         });
 };
 

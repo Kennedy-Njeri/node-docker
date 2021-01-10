@@ -2,7 +2,7 @@ const User = require('../models/user');
 const jwt = require('jsonwebtoken') // generate signed token
 const expressJwt = require('express-jwt') // for authorization check
 const { errorHandler } = require('../helpers/dbErrorHandler');
-require('dotenv').config()
+//require('dotenv').config()
 
 
 
@@ -21,7 +21,7 @@ exports.signup = async (req, res) => {
         user.salt = undefined
         user.hashed_password = undefined
 
-        res.json({
+        res.status(201).json({
             user
         })
     })

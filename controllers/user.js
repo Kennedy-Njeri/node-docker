@@ -3,11 +3,6 @@ const User = require('../models/user');
 
 
 
-
-
-
-
-
 exports.userById = async (req, res, next, id) => {
     await User.findById(id).exec((err, user) => {
         if (err || !user) {
@@ -24,12 +19,12 @@ exports.userById = async (req, res, next, id) => {
 exports.read = (req, res) => {
     req.profile.hashed_password = undefined;
     req.profile.salt = undefined;
-    return res.json(req.profile);
+    return res.status(200).json(req.profile);
 };
 
 
 exports.update = async (req, res) => {
-    console.log('user update', req.body);
+    //console.log('user update', req.body);
     //req.body.role = 0; // role will always be 0
     await User.findOneAndUpdate({ _id: req.profile._id }, { $set: req.body }, { new: true }, (err, user) => {
         if (err) {
