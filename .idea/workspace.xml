@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93c8512c-7c29-455c-ab5d-bc38ce61f1be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/fixtures/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/task.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/task.js" afterDir="false" />
-    </list>
+    <list default="true" id="93c8512c-7c29-455c-ab5d-bc38ce61f1be" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/fixtures/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
+            <state relative-caret-position="405">
               <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="54" selection-end-column="19" />
             </state>
           </provider>
@@ -47,20 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="-376">
               <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/task.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            <state relative-caret-position="86">
+              <caret line="32" selection-start-line="32" selection-end-line="49" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -68,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/user.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-235">
+            <state relative-caret-position="-859">
               <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
@@ -110,7 +100,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
+    <option name="x" value="254" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="825" />
@@ -159,7 +149,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610311265554" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610311865743" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -200,16 +190,15 @@
       <updated>1610191832966</updated>
       <workItem from="1610191837483" duration="3441000" />
       <workItem from="1610203438288" duration="9276000" />
-      <workItem from="1610262237397" duration="18128000" />
+      <workItem from="1610262237397" duration="18523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30845000" />
+    <option name="totallyTimeSpent" value="31240000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="439" width="1440" height="825" extended-state="0" />
-    <editor active="true" />
+    <frame x="38" y="23" width="1440" height="825" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -338,13 +327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/fixtures/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="54" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -352,24 +334,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/task.js">
+    <entry file="file://$PROJECT_DIR$/tests/fixtures/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="405">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="54" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/user.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
+        <state relative-caret-position="-859">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/task.test.js">
+    <entry file="file://$PROJECT_DIR$/controllers/task.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="-376">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -380,10 +362,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/task.js">
+    <entry file="file://$PROJECT_DIR$/models/task.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/task.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="32" selection-start-line="32" selection-end-line="49" selection-end-column="2" />
         </state>
       </provider>
     </entry>
